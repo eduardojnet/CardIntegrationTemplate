@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: cardintegration-template
+  title: Card Integration Template
+  description: Template para o serviço CardIntegration em Java Spring Boot com Clean Architecture e Kubernetes
+spec:
+  owner: eduardojnet
+  type: service
+  path: .
+  templater: cookiecutter
+  schema:
+    required:
+      - name
+    properties:
+      name:
+        title: CardIntegration
+        type: string
