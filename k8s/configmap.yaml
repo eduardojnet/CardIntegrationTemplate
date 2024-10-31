@@ -1,0 +1,7 @@
+apiVersion: v1
+        kind: ConfigMap
+        metadata:
+          name: cardintegration-config
+        data:
+          APPLICATION_NAME: "CardIntegration"
+          ENVIRONMENT: "production"
